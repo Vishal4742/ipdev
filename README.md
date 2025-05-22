@@ -98,6 +98,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## 👨‍💻 Authors
 
 - **Vishal** - [@Vishal4742](https://github.com/Vishal4742)
+- **Semicolon** -
+- **Saqiue** -
+- **Rishabh** -  
 
 ## 🙏 Acknowledgments
 
