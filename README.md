@@ -1,24 +1,114 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 IP Management System
 
-## Getting Started
+A modern, decentralized platform for managing Intellectual Property (IP) assets with blockchain integration. Built with Next.js, Tailwind CSS, and Web3 technologies.
 
-First, run the development server:
+![Banner](https://via.placeholder.com/1200x400/1a202c/ffffff?text=IP+Management+System)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Features
+
+- 🔒 Secure document storage and management
+- 🔗 Blockchain-based IP verification
+- 📝 Smart contract integration for IP rights
+- 👥 Multi-user access control
+- 📊 Activity logging and tracking
+- 🌓 Dark/Light mode support
+- 🔍 Advanced search functionality
+- 📱 Responsive design
+
+## 🛠 Tech Stack
+
+- **Frontend**: Next.js 14, React 18, Tailwind CSS
+- **Backend**: Node.js, Express
+- **Blockchain**: Ethereum, Smart Contracts (Solidity)
+- **Database**: MongoDB
+- **Authentication**: JWT
+- **State Management**: Redux
+- **UI Components**: Custom components with Framer Motion
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 16+ and npm/yarn
+- MongoDB instance
+- MetaMask or Web3 wallet
+- Git
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Vishal4742/ipdev.git
+   cd ipdev
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Set up environment variables**
+   Create a `.env` file in the root directory and add the following:
+   ```
+   MONGODB_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret
+   NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=your_wallet_connect_id
+   ```
+
+4. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+5. **Open [http://localhost:3000](http://localhost:3000) in your browser**
+
+## 📂 Project Structure
+
+```
+├── src/
+│   ├── app/                 # Next.js 13+ app directory
+│   ├── components/          # Reusable components
+│   ├── contracts/           # Smart contracts
+│   ├── controllers/         # API route handlers
+│   ├── models/              # Database models
+│   ├── redux/               # Redux store and actions
+│   └── styles/              # Global styles
+├── public/                  # Static files
+└── .env.example             # Environment variables example
 ```
 
+## 🤝 Contributing
 
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## 👨‍💻 Authors
+
+- **Vishal** - [@Vishal4742](https://github.com/Vishal4742)
+
+## 🙏 Acknowledgments
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Web3 Documentation](https://web3js.readthedocs.io/)
+- [Ethereum Developer Resources](https://ethereum.org/developers/)
+
+---
+
+Made with ❤️ and JavaScript
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
